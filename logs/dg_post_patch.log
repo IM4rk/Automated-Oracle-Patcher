@@ -1,0 +1,34 @@
+
+OPEN_MODE            DATABASE_ROLE        DB_UNIQUE_NAME       STATUS                                                                                                                                   
+-------------------- -------------------- -------------------- --------------------                                                                                                                     
+MOUNTED              PHYSICAL STANDBY     test_ds1dg           APPLYING_LOG                                                                                                                             
+
+
+ SEQUENCE# START_SCN  APPLIED    COMP_TIME            NAME                                                                                                                                              
+---------- ---------- ---------- -------------------- --------------------------------------------------                                                                                                
+       693 4103017    NO         11-dec-2017 17:19:53 o1_mf_1_693_f2xhksrk_.arc                                                                                                                         
+       692 4101614    YES        11-dec-2017 17:19:53 o1_mf_1_692_f2xhksv7_.arc                                                                                                                         
+       691 4100346    YES        11-dec-2017 16:57:21 o1_mf_1_691_f2xg7kvg_.arc                                                                                                                         
+       690 4099084    YES        11-dec-2017 16:47:21 o1_mf_1_690_f2xfnsbg_.arc                                                                                                                         
+       689 4097843    YES        11-dec-2017 16:37:20 o1_mf_1_689_f2xf20rm_.arc                                                                                                                         
+       688 4096591    YES        11-dec-2017 16:27:20 o1_mf_1_688_f2xdh86j_.arc                                                                                                                         
+
+6 rows selected.
+
+
+OPEN_MODE            DATABASE_ROLE        DB_UNIQUE_NAME       STATUS                                                                                                                                   
+-------------------- -------------------- -------------------- --------------------                                                                                                                     
+MOUNTED              PHYSICAL STANDBY     test1_ds1dg          APPLYING_LOG                                                                                                                             
+
+
+ SEQUENCE# START_SCN  APPLIED    COMP_TIME            NAME                                                                                                                                              
+---------- ---------- ---------- -------------------- --------------------------------------------------                                                                                                
+       707 4391267    NO         11-dec-2017 17:20:04 o1_mf_1_707_f2xhl46f_.arc                                                                                                                         
+       706 4389728    YES        11-dec-2017 17:20:04 o1_mf_1_706_f2xhl48n_.arc                                                                                                                         
+       705 4388474    YES        11-dec-2017 16:59:48 o1_mf_1_705_f2xgd4y5_.arc                                                                                                                         
+       704 4387238    YES        11-dec-2017 16:49:51 o1_mf_1_704_f2xfsh8w_.arc                                                                                                                         
+       703 4385964    YES        11-dec-2017 16:39:50 o1_mf_1_703_f2xf6pmx_.arc                                                                                                                         
+       702 4384709    YES        11-dec-2017 16:29:49 o1_mf_1_702_f2xdmxy1_.arc                                                                                                                         
+
+6 rows selected.
+

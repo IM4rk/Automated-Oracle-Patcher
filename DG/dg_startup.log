@@ -1,0 +1,723 @@
+SP2-0103: Nothing in SQL buffer to run.
+ORACLE instance started.
+
+Total System Global Area 1073741824 bytes                                       
+Fixed Size                  2932632 bytes                                       
+Variable Size             750780520 bytes                                       
+Database Buffers          314572800 bytes                                       
+Redo Buffers                5455872 bytes                                       
+Database mounted.
+SP2-0103: Nothing in SQL buffer to run.
+
+Database altered.
+
+
+PROCESS   STATUS                                                                
+--------- ------------                                                          
+ARCH      CONNECTED                                                             
+ARCH      CLOSING                                                               
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+MRP0      APPLYING_LOG                                                          
+
+9 rows selected.
+
+SP2-0103: Nothing in SQL buffer to run.
+ORA-01081: cannot start already-running ORACLE - shut it down first
+SP2-0103: Nothing in SQL buffer to run.
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01153: an incompatible media recovery is active 
+
+
+
+PROCESS   STATUS                                                                
+--------- ------------                                                          
+ARCH      CONNECTED                                                             
+ARCH      CLOSING                                                               
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+MRP0      APPLYING_LOG                                                          
+
+9 rows selected.
+
+SP2-0103: Nothing in SQL buffer to run.
+ORACLE instance started.
+
+Total System Global Area 1073741824 bytes                                       
+Fixed Size                  2932632 bytes                                       
+Variable Size             713031784 bytes                                       
+Database Buffers          352321536 bytes                                       
+Redo Buffers                5455872 bytes                                       
+Database mounted.
+SP2-0103: Nothing in SQL buffer to run.
+
+Database altered.
+
+
+PROCESS   STATUS                                                                
+--------- ------------                                                          
+ARCH      CONNECTED                                                             
+ARCH      CLOSING                                                               
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+RFS       RECEIVING                                                             
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+MRP0      APPLYING_LOG                                                          
+
+9 rows selected.
+
+SP2-0103: Nothing in SQL buffer to run.
+ORA-01081: cannot start already-running ORACLE - shut it down first
+SP2-0103: Nothing in SQL buffer to run.
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01153: an incompatible media recovery is active 
+
+
+
+PROCESS   STATUS                                                                
+--------- ------------                                                          
+ARCH      CONNECTED                                                             
+ARCH      CLOSING                                                               
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+MRP0      APPLYING_LOG                                                          
+
+9 rows selected.
+
+SP2-0103: Nothing in SQL buffer to run.
+ORACLE instance started.
+
+Total System Global Area 1073741824 bytes                                       
+Fixed Size                  2932632 bytes                                       
+Variable Size             713031784 bytes                                       
+Database Buffers          352321536 bytes                                       
+Redo Buffers                5455872 bytes                                       
+Database mounted.
+SP2-0103: Nothing in SQL buffer to run.
+
+Database altered.
+
+
+PROCESS   STATUS                                                                
+--------- ------------                                                          
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+ARCH      CLOSING                                                               
+ARCH      CONNECTED                                                             
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+MRP0      APPLYING_LOG                                                          
+
+8 rows selected.
+
+ORACLE instance started.
+
+Total System Global Area 1073741824 bytes                                       
+Fixed Size                  2932632 bytes                                       
+Variable Size             750780520 bytes                                       
+Database Buffers          314572800 bytes                                       
+Redo Buffers                5455872 bytes                                       
+Database mounted.
+
+Database altered.
+
+
+PROCESS   STATUS                                                                
+--------- ------------                                                          
+ARCH      CONNECTED                                                             
+ARCH      CLOSING                                                               
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+RFS       IDLE                                                                  
+RFS       RECEIVING                                                             
+MRP0      APPLYING_LOG                                                          
+
+7 rows selected.
+
+ORACLE instance started.
+
+Total System Global Area 1073741824 bytes                                       
+Fixed Size                  2932632 bytes                                       
+Variable Size             713031784 bytes                                       
+Database Buffers          352321536 bytes                                       
+Redo Buffers                5455872 bytes                                       
+Database mounted.
+
+Database altered.
+
+
+PROCESS   STATUS                                                                
+--------- ------------                                                          
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+RFS       IDLE                                                                  
+RFS       RECEIVING                                                             
+MRP0      APPLYING_LOG                                                          
+
+7 rows selected.
+
+ORA-01081: cannot start already-running ORACLE - shut it down first
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01153: an incompatible media recovery is active 
+
+
+
+PROCESS   STATUS                                                                
+--------- ------------                                                          
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+MRP0      APPLYING_LOG                                                          
+
+7 rows selected.
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest_ds1             .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest1_ds1            .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORACLE instance started.
+
+Total System Global Area 1073741824 bytes                                       
+Fixed Size                  2932632 bytes                                       
+Variable Size             750780520 bytes                                       
+Database Buffers          314572800 bytes                                       
+Redo Buffers                5455872 bytes                                       
+Database mounted.
+
+Database altered.
+
+
+PROCESS   STATUS                                                                
+--------- ------------                                                          
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+MRP0      APPLYING_LOG                                                          
+
+7 rows selected.
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest_ds1             .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest1_ds1            .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest_ds1             .ora'
+SP2-0103: Nothing in SQL buffer to run.
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest1_ds1            .ora'
+SP2-0103: Nothing in SQL buffer to run.
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest_ds1             .ora'
+SP2-0103: Nothing in SQL buffer to run.
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest1_ds1            .ora'
+SP2-0103: Nothing in SQL buffer to run.
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORACLE instance started.
+
+Total System Global Area 1073741824 bytes                                       
+Fixed Size                  2932632 bytes                                       
+Variable Size             713031784 bytes                                       
+Database Buffers          352321536 bytes                                       
+Redo Buffers                5455872 bytes                                       
+Database mounted.
+SP2-0103: Nothing in SQL buffer to run.
+
+Database altered.
+
+
+PROCESS   STATUS                                                                
+--------- ------------                                                          
+ARCH      CONNECTED                                                             
+ARCH      CLOSING                                                               
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+RFS       IDLE                                                                  
+MRP0      APPLYING_LOG                                                          
+
+8 rows selected.
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest_ds1             .ora'
+SP2-0103: Nothing in SQL buffer to run.
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest1_ds1            .ora'
+SP2-0103: Nothing in SQL buffer to run.
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest_ds1             .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest1_ds1            .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest_ds1             .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest1_ds1            .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest_ds1             .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest1_ds1            .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest_ds1             .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest1_ds1            .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORACLE instance started.
+
+Total System Global Area 1073741824 bytes                                       
+Fixed Size                  2932632 bytes                                       
+Variable Size             713031784 bytes                                       
+Database Buffers          352321536 bytes                                       
+Redo Buffers                5455872 bytes                                       
+Database mounted.
+
+Database altered.
+
+
+PROCESS   STATUS                                                                
+--------- ------------                                                          
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+MRP0      APPLYING_LOG                                                          
+
+ORACLE instance started.
+
+Total System Global Area 1073741824 bytes                                       
+Fixed Size                  2932632 bytes                                       
+Variable Size             750780520 bytes                                       
+Database Buffers          314572800 bytes                                       
+Redo Buffers                5455872 bytes                                       
+Database mounted.
+
+Database altered.
+
+
+PROCESS   STATUS                                                                
+--------- ------------                                                          
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+ARCH      CONNECTED                                                             
+MRP0      APPLYING_LOG                                                          
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest_ds1             .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest1_ds1            .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest_ds1             .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/oracle/product/12.1.0/db1/dbs/inittest1_ds1            .ora'
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+alter database recover managed standby database disconnect from session
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY
+*
+ERROR at line 1:
+ORA-01034: ORACLE not available 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+

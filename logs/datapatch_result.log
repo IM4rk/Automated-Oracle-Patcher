@@ -1,0 +1,20 @@
+
+NAME                                                                                                                                                                                                    
+---------                                                                                                                                                                                               
+EDUDEV3                                                                                                                                                                                                 
+
+
+  PATCH_ID ACTION          ACTION_TIME               VERSION    STATUS     DESCRIPTION                                                                                                                  
+---------- --------------- ------------------------- ---------- ---------- -----------------------------------------------------------------                                                            
+  26713565 APPLY           24-JAN-18 11.15.02.143291 12.1.0.2   SUCCESS    DATABASE PATCH SET UPDATE 12.1.0.2.171017                                                                                    
+
+
+NAME                                                                                                                                                                                                    
+---------                                                                                                                                                                                               
+EDUST1                                                                                                                                                                                                  
+
+
+  PATCH_ID ACTION          ACTION_TIME               VERSION    STATUS     DESCRIPTION                                                                                                                  
+---------- --------------- ------------------------- ---------- ---------- -----------------------------------------------------------------                                                            
+  26713565 APPLY           24-JAN-18 11.15.02.143291 12.1.0.2   SUCCESS    DATABASE PATCH SET UPDATE 12.1.0.2.171017                                                                                    
+
